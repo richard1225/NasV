@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "env": {
+    "browser": true
+  },
+  "extends": ["plugin:vue/essential", "standard"],
+  "plugins": ["vue"],
+  "rules": {
+    "generator-star-spacing": "off",
+    "space-before-function-paren": [
+      "error",
+      { "anonymous": "never", "named": "never", "asyncArrow": "never" }
+    ]
+  }
+}
